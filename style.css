@@ -1,0 +1,28 @@
+.axis {
+    shape-rendering: crispEdges;
+}
+
+.axis line {
+    stroke: #000000;
+    stroke-width: 2px;
+}
+
+.axis .ticks line {
+    stroke: #4F4F4F;
+    stroke-width: 2px;
+}
+
+.axis .ticks line.minor{
+    stroke: #CCCCCC;
+    stroke-width:1px;
+}
+
+#checkbox{
+	width: 300px;
+	height: 97%;
+	position:fixed;
+	top:5px;
+	right:10px;
+	background-color:rgba(0,0,0,0.07);
+	overflow-y:auto;
+}
